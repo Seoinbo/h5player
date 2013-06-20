@@ -1,0 +1,11 @@
+.ibplayer {position:relative; overflow:hidden; margin:0; padding:0; background:#000; border:1px solid #000;}
+.ibp_fullscreen {position:fixed !important;top:0 !important;left:0 !important;border:0 !important;margin:0 !important;width:100% !important;height:100% !important;max-width:100% !important;z-index:99999 !important;-webkit-box-shadow:0 !important;-moz-box-shadow:0 !important;box-shadow:0 !important;background-image:none !important;background-color:#000;}
+.ibplayer .ibp_screen {position:absolute; width:100%; height:100%; z-index:1001; -webkit-transition:all .3s; -moz-transition:all .3s; -ms-transition:all .3s;}
+.ibplayer .ibp_screenblur {-webkit-filter:blur(5px); -moz-filter:blur(5px); -ms-filter:blur(5px);}
+.ibplayer .ibp_screen video {width:100%;}
+.ibplayer .ibp_poster {position:absolute; width:100%; height:100%; z-index:1004; cursor:pointer;}
+.ibplayer .ibp_postertable {border-collapse:collapse; width:100%; height:100%; border:none;}
+.ibplayer .ibp_show {display:block;}
+.ibplayer .ibp_hide {display:none;}
+.ibplayer .ibp_postertable .ibp_postertd {background:#000;}
+.ibplayer .ibp_postertable .ibp_posterimg {width:100%}
