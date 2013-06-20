@@ -35,7 +35,7 @@ package {
 		private var stream:NetStream;
 		private var video:Video;
 		
-		// api func들에는 prefix "_" 추가
+		// api func들에는 prefix "_" 추가.
 		public static const API:Array = [
 			"init",
 			"duration",
