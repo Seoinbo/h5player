@@ -271,7 +271,6 @@ package {
 					resize();
 				}
 			}
-			
 		}
 		
 		private function disconnect ():void {
