@@ -128,7 +128,7 @@ package {
 		
 		public function _play ():void {
 			debug("play");
-			stream.resume();
+			//stream.resume();
 			paused = false;
 		}
 		
@@ -193,7 +193,7 @@ package {
 			debug("load: " + info.src);
 			if (info.src) {
 				stream.play(info.src);
-				stream.pause();
+				//stream.pause();
 			}
 			currentVideoInfo = info;
 		}
@@ -228,8 +228,6 @@ package {
 			var buffer:Number = stream.bytesLoaded,
 				delta:Number = stream.bytesTotal - buffer;
 			fireEvent("timeupdate", { "time": currentTime, "buffer": buffer } );
-			
-			debug("buff:" + buffer);
 		}
 		
 		private function connect ():void {
